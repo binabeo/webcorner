@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="img/workwise.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+    <title>Home | StudyCorner</title>
+    <link rel="shortcut icon" href="" />
+  </head>
+  <body>
+    <header>
+      <h1>StudyCorner</h1>
+      <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="logo">
+            <img
+              src="img/study2.jpeg"
+              alt="logo"
+              class="rounded-circle"
+            />
+          </div>
+          <div class="content">
+            <h3>Selamat datang di StudyCorner!!</h3>
+            <h2>Dapatkan peluang untuk masuk Universitas impian Anda!</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              ipsam, voluptas necessitatibus<br />recusandae suscipit dolorem
+              eum debitis accusamus ducimus. Est, beatae distinctio! Ipsam,<br />porro.
+              Dolorum pariatur doloremque deserunt natus quasi?
+            </p>
+          </div>
+        </div>
+        <div class="btn">
+          <button type="button" class="daftar-button"><b>Daftar</b></button>
+          <button type="button" class="masuk-button"><b>Masuk</b></button>
+          <div class="container-2">
+          </div>
+          <div class="image-container">
+            <img src="img/rawr-removebg-preview.png" alt="study" width="200" height="100"/>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 WorkWise. All rights reserved. | <a href="https://www.instagram.com/binaworlds?igsh=MXd2MTdhNjZpdzc1ZA==" target="_blank">@binaworlds</a></p>
+    </footer>
+
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function() {
+        navbar = document.querySelector(".nav-bar")
+        navbar.classList.toggle("active")
+      }
+    </script>
+  </body>
+</html>
